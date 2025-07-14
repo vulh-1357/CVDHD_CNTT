@@ -1,0 +1,3 @@
+DEFAULT_ENTITY_TYPES = ['Person', 'Address', 'Email', 'Phone', 'Github', 'SocialMedia', 'Skill', 'Language', 'Framework', 'Degree', 'EducationInstitution', 'Company', 'Project', 'Experience', 'Certification', 'Award', 'Publication', 'Course', 'SoftSkill', 'Major', 'Database', 'Algorithm', 'MLModel', 'Tool', 'Platform', 'Repository', 'Position', 'Technology', 'Score', 'Achievement']
+DEFAULT_TUPLE_DELIMITER = '<|>'
+DEFAULT_RECORD_DELIMITER = '##'

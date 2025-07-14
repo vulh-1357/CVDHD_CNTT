@@ -1,0 +1,455 @@
+2025-07-14 21:19:13,547 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-14 21:19:19,487 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-14 21:19:19,488 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-14 21:19:19,488 - __main__ - INFO - Parsed CV to markdown successfully. Markdown content: # Nguyen Viet Cuong
+https://www.cuongnv.social
+
+Email: cuongnv4w@gmail.com
+Mobile: 0325920728
+
+## EDUCATION
+*   **University of Engineering and Technology**
+    VNU, Hanoi
+    Oct. 2022 – Present
+    Bachelor of Science in Information Technology; GPA: 3.57
+
+## PROJECTS
+*   **A Method for Generating Web Application UI Test Cases**:
+    **Description**: Developed an automated testing method that generates UI test cases from natural language descriptions and images. The approach integrates NLP, traditional methods and computer vision to simulate UI behaviors.
+    **Role**: Researched, implemented, and optimized the validating result method for test case generation pipeline.
+*   **AWS basic machine learning pipeline**: Demonstrate how to deploy an AI model on AWS SageMaker using a custom Docker image. Covers the entire workflow, including creating a training job, deploying an inference endpoint, and invoking predictions.
+*   **A simple CI/CD pipeline for fullstack projects**: Provides a simple on-prime CI / CD pipeline implementation to automate security scanning, building, testing, and deployment of a containerized application on Kubernetes. Integrates SAST, SCA, DAST, performance testing, and Telegram notifications for reporting.
+*   **Triton Inference Server**: Provides an example of customizing a Python backend for the Triton Inference Server. The implementation demonstrates how to modify the Triton server to support specific and efficient deep learning inference workflows.
+*   **Billard Shop**: An e-commerce platform built on Magento 2, designed to sell billiard supplies online. This project provides a Dockerized environment for easy deployment and management.
+*   **Q Airline**: A full stack web application that provides flight information and booking support. This project provides a Dockerized environment for easy mock deployment.
+*   **Minbert**: A mini BERT model with multiple layers and pretraining it using contrastive learning for the Quora Question Pairs task.
+*   **English Learning Application**: Bilingual (English-Vietnamese and Vietnamese-English) dictionary features and interactive vocabulary games like Hangman and Crossword.
+*   **Dissneland Game**: A top-down action game where players control a swordsman to defeat enemies and progress through levels.
+
+Note: The project details are available at www.cuongnv.social.
+
+## ACHIEVEMENT
+*   Second prize in The Scientific Research Conference for Undergraduates 2025 at UET-FIT.
+
+## KNOWLEDGE
+*   Automation of workflows and system development using CI/CD tools such as Jenkins, Argo, etc.
+*   Fundamental knowledge of Cloud computing and DevSecOps.
+*   Proficiency in Linux (Ubuntu) and Git.
+*   Experience with Bash scripting and Python.
+*   Ability to research and analyze scientific and technical documents.
+
+## PROGRAMMING SKILLS
+*   **Languages**: Python, Javascript, C++, SQL, Java
+*   **Technologies**: AWS, Container, CI/CD
+2025-07-14 21:19:19,488 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-14 21:20:03,069 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-14 21:20:03,074 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-14 21:20:03,074 - __main__ - INFO - Extracted raw results from markdown. Results: ['("entity"<|>"Nguyen Viet Cuong"<|>"Person"<|>"The candidate\'s name. Holds a Bachelor of Science in Information Technology and has experience in various IT projects and technologies.")', '("entity"<|>"cuongnv.social"<|>"SocialMedia"<|>"A personal portfolio website of Nguyen Viet Cuong, where project details are available.")', '("entity"<|>"cuongnv4w@gmail.com"<|>"Email"<|>"The email address for Nguyen Viet Cuong.")', '("entity"<|>"0325920728"<|>"Phone"<|>"The mobile phone number for Nguyen Viet Cuong.")', '("entity"<|>"University of Engineering and Technology"<|>"EducationInstitution"<|>"An educational institution located in VNU, Hanoi, where Nguyen Viet Cuong is pursuing a Bachelor\'s degree.")', '("entity"<|>"VNU, Hanoi"<|>"Address"<|>"The location of the University of Engineering and Technology.")', '("entity"<|>"Bachelor of Science"<|>"Degree"<|>"An undergraduate academic degree pursued by Nguyen Viet Cuong.")', '("entity"<|>"Information Technology"<|>"Major"<|>"The field of study for Nguyen Viet Cuong\'s Bachelor of Science degree.")', '("entity"<|>"3.57"<|>"Score"<|>"The GPA obtained by Nguyen Viet Cuong for the Bachelor of Science in Information Technology.")', '("entity"<|>"A Method for Generating Web Application UI Test Cases"<|>"Project"<|>"A project that developed an automated testing method generating UI test cases from natural language descriptions and images. The approach integrates NLP, traditional methods, and computer vision to simulate UI behaviors. Nguyen Viet Cuong researched, implemented, and optimized the validating result method for the test case generation pipeline.")', '("entity"<|>"AWS basic machine learning pipeline"<|>"Project"<|>"A project demonstrating how to deploy an AI model on AWS SageMaker using a custom Docker image. It covers the entire workflow, including creating a training job, deploying an inference endpoint, and invoking predictions.")', '("entity"<|>"A simple CI/CD pipeline for fullstack projects"<|>"Project"<|>"A project providing a simple on-premise CI/CD pipeline implementation to automate security scanning, building, testing, and deployment of a containerized application on Kubernetes. It integrates SAST, SCA, DAST, performance testing, and Telegram notifications for reporting.")', '("entity"<|>"Triton Inference Server"<|>"Project"<|>"A project providing an example of customizing a Python backend for the Triton Inference Server tool. The implementation demonstrates how to modify the Triton server to support specific and efficient deep learning inference workflows.")', '("entity"<|>"Billard Shop"<|>"Project"<|>"An e-commerce platform project built on Magento 2, designed to sell billiard supplies online. This project provides a Dockerized environment for easy deployment and management.")', '("entity"<|>"Q Airline"<|>"Project"<|>"A full stack web application project that provides flight information and booking support. This project provides a Dockerized environment for easy mock deployment.")', '("entity"<|>"Minbert"<|>"Project"<|>"A project involving a mini BERT model with multiple layers and pretraining it using contrastive learning for the Quora Question Pairs task.")', '("entity"<|>"English Learning Application"<|>"Project"<|>"A project featuring a bilingual (English-Vietnamese and Vietnamese-English) dictionary and interactive vocabulary games like Hangman and Crossword.")', '("entity"<|>"Dissneland Game"<|>"Project"<|>"A top-down action game project where players control a swordsman to defeat enemies and progress through levels.")', '("entity"<|>"Second prize in The Scientific Research Conference for Undergraduates 2025"<|>"Award"<|>"An achievement received by Nguyen Viet Cuong, a second prize in The Scientific Research Conference for Undergraduates 2025 at UET-FIT.")', '("entity"<|>"UET-FIT"<|>"EducationInstitution"<|>"The Faculty of Information Technology at the University of Engineering and Technology, where Nguyen Viet Cuong received an award.")', '("entity"<|>"CI/CD"<|>"Technology"<|>"A set of practices that combines continuous integration and continuous delivery/deployment, used to automate software development processes.")', '("entity"<|>"Jenkins"<|>"Tool"<|>"An open-source automation server used for building, testing, and deploying software projects.")', '("entity"<|>"Argo"<|>"Tool"<|>"A set of Kubernetes-native tools for deploying and running workflows, managing applications, and performing CI/CD operations.")', '("entity"<|>"Cloud computing"<|>"Technology"<|>"The delivery of on-demand computing services—from applications to storage and processing power—typically over the internet and with a pay-as-you-go pricing model.")', '("entity"<|>"DevSecOps"<|>"Technology"<|>"An approach to culture, automation, and platform design that integrates security as a shared responsibility throughout the entire IT lifecycle.")', '("entity"<|>"Linux"<|>"Platform"<|>"A family of open-source Unix-like operating systems based on the Linux kernel.")', '("entity"<|>"Ubuntu"<|>"Platform"<|>"A popular open-source Linux distribution, known for its user-friendliness and wide adoption.")', '("entity"<|>"Git"<|>"Tool"<|>"A distributed version control system used for tracking changes in source code during software development.")', '("entity"<|>"Bash"<|>"Language"<|>"A Unix shell and command language, commonly used for scripting in Linux environments.")', '("entity"<|>"Python"<|>"Language"<|>"A high-level, general-purpose programming language, widely used in web development, data analysis, artificial intelligence, and scientific computing.")', '("entity"<|>"Javascript"<|>"Language"<|>"A high-level, often just-in-time compiled language that conforms to the ECMAScript standard, primarily used for web development.")', '("entity"<|>"C++"<|>"Language"<|>"A powerful, general-purpose programming language often used for system programming, game development, and high-performance computing.")', '("entity"<|>"SQL"<|>"Language"<|>"A domain-specific language used in programming and designed for managing data held in a relational database management system.")', '("entity"<|>"Java"<|>"Language"<|>"A high-level, class-based, object-oriented programming language designed to have as few implementation dependencies as possible.")', '("entity"<|>"AWS"<|>"Platform"<|>"Amazon Web Services, a comprehensive, broadly adopted, and widely used cloud platform, offering over 200 fully featured services from data centers globally.")', '("entity"<|>"Container"<|>"Technology"<|>"A standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.")', '("entity"<|>"NLP"<|>"Technology"<|>"Natural Language Processing, a field of artificial intelligence focused on enabling computers to understand, interpret, and generate human language.")', '("entity"<|>"Computer Vision"<|>"Technology"<|>"A field of artificial intelligence that enables computers and systems to derive meaningful information from digital images, videos and other visual inputs.")', '("entity"<|>"AWS SageMaker"<|>"Platform"<|>"A fully managed machine learning service that helps data scientists and developers to build, train, and deploy machine learning models quickly.")', '("entity"<|>"Docker"<|>"Tool"<|>"A set of platform as a service products that use OS-level virtualization to deliver software in packages called containers.")', '("entity"<|>"Kubernetes"<|>"Platform"<|>"An open-source container orchestration system for automating deployment, scaling, and management of containerized applications.")', '("entity"<|>"SAST"<|>"Technology"<|>"Static Application Security Testing, a white-box testing methodology that analyzes source code for security vulnerabilities without executing the code.")', '("entity"<|>"SCA"<|>"Technology"<|>"Software Composition Analysis, a process that automates the identification of open-source components in a codebase and their associated licenses and vulnerabilities.")', '("entity"<|>"DAST"<|>"Technology"<|>"Dynamic Application Security Testing, a black-box testing methodology that analyzes applications in their running state to find vulnerabilities.")', '("entity"<|>"Telegram"<|>"Tool"<|>"A cloud-based instant messaging service, commonly used for notifications and communication.")', '("entity"<|>"Magento 2"<|>"Framework"<|>"An open-source e-commerce platform built on PHP, designed for online stores and businesses.")', '("entity"<|>"BERT"<|>"MLModel"<|>"Bidirectional Encoder Representations from Transformers, a neural network architecture designed for pre-training deep bidirectional representations from unlabeled text.")', '("entity"<|>"Triton Inference Server (Tool)"<|>"Tool"<|>"An open-source software for serving machine learning models, developed by NVIDIA, designed for high-performance inference of AI models.")', '("entity"<|>"Workflow automation"<|>"Skill"<|>"The ability to design and implement automated sequences of tasks or processes efficiently.")', '("entity"<|>"System development"<|>"Skill"<|>"The ability to design, develop, and implement software systems from conception to deployment.")', '("entity"<|>"Scientific and technical documents analysis"<|>"SoftSkill"<|>"The ability to effectively research, analyze, and interpret information from scientific and technical documents.")', '("relationship"<|>"Nguyen Viet Cuong"<|>"cuongnv.social"<|>"Nguyen Viet Cuong\'s personal portfolio website where project details are available."<|>"9")', '("relationship"<|>"Nguyen Viet Cuong"<|>"cuongnv4w@gmail.com"<|>"Nguyen Viet Cuong\'s contact email address."<|>"9")', '("relationship"<|>"Nguyen Viet Cuong"<|>"0325920728"<|>"Nguyen Viet Cuong\'s contact mobile phone number."<|>"9")', '("relationship"<|>"Nguyen Viet Cuong"<|>"University of Engineering and Technology"<|>"Nguyen Viet Cuong is a student at the University of Engineering and Technology, studying from October 2022 to Present."<|>"9")', '("relationship"<|>"University of Engineering and Technology"<|>"VNU, Hanoi"<|>"University of Engineering and Technology is located in VNU, Hanoi."<|>"8")', '("relationship"<|>"Nguyen Viet Cuong"<|>"Bachelor of Science"<|>"Nguyen Viet Cuong is pursuing a Bachelor of Science degree."<|>"9")', '("relationship"<|>"Bachelor of Science"<|>"Information Technology"<|>"The Bachelor of Science degree is in Information Technology."<|>"9")', '("relationship"<|>"Nguyen Viet Cuong"<|>"3.57"<|>"Nguyen Viet Cuong achieved a GPA of 3.57 for his Bachelor of Science degree."<|>"8")', '("relationship"<|>"Nguyen Viet Cuong"<|>"A Method for Generating Web Application UI Test Cases"<|>"Nguyen Viet Cuong developed an automated testing method for UI test cases as a project. His role included researching, implementing, and optimizing the validating result method for the test case generation pipeline."<|>"9")', '("relationship"<|>"A Method for Generating Web Application UI Test Cases"<|>"NLP"<|>"The project \'A Method for Generating Web Application UI Test Cases\' integrates NLP."<|>"7")', '("relationship"<|>"A Method for Generating Web Application UI Test Cases"<|>"Computer Vision"<|>"The project \'A Method for Generating Web Application UI Test Cases\' integrates Computer Vision."<|>"7")', '("relationship"<|>"Nguyen Viet Cuong"<|>"AWS basic machine learning pipeline"<|>"Nguyen Viet Cuong contributed to the \'AWS basic machine learning pipeline\' project that demonstrates AI model deployment on AWS SageMaker."<|>"8")', '("relationship"<|>"AWS basic machine learning pipeline"<|>"AWS SageMaker"<|>"The \'AWS basic machine learning pipeline\' project deploys AI models on AWS SageMaker."<|>"8")', '("relationship"<|>"AWS basic machine learning pipeline"<|>"Docker"<|>"The \'AWS basic machine learning pipeline\' project uses a custom Docker image."<|>"7")', '("relationship"<|>"Nguyen Viet Cuong"<|>"A simple CI/CD pipeline for fullstack projects"<|>"Nguyen Viet Cuong worked on \'A simple CI/CD pipeline for fullstack projects\' that automates security scanning, building, testing, and deployment."<|>"8")', '("relationship"<|>"A simple CI/CD pipeline for fullstack projects"<|>"CI/CD"<|>"The project \'A simple CI/CD pipeline for fullstack projects\' implements a CI/CD pipeline."<|>"8")', '("relationship"<|>"A simple CI/CD pipeline for fullstack projects"<|>"Kubernetes"<|>"The \'A simple CI/CD pipeline for fullstack projects\' project deploys containerized applications on Kubernetes."<|>"7")', '("relationship"<|>"A simple CI/CD pipeline for fullstack projects"<|>"SAST"<|>"The \'A simple CI/CD pipeline for fullstack projects\' project integrates SAST."<|>"7")', '("relationship"<|>"A simple CI/CD pipeline for fullstack projects"<|>"SCA"<|>"The \'A simple CI/CD pipeline for fullstack projects\' project integrates SCA."<|>"7")', '("relationship"<|>"A simple CI/CD pipeline for fullstack projects"<|>"DAST"<|>"The \'A simple CI/CD pipeline for fullstack projects\' project integrates DAST."<|>"7")', '("relationship"<|>"A simple CI/CD pipeline for fullstack projects"<|>"Telegram"<|>"The \'A simple CI/CD pipeline for fullstack projects\' project uses Telegram for notifications."<|>"6")', '("relationship"<|>"Nguyen Viet Cuong"<|>"Triton Inference Server"<|>"Nguyen Viet Cuong worked on the \'Triton Inference Server\' project which customizes a Python backend for deep learning inference workflows."<|>"8")', '("relationship"<|>"Triton Inference Server"<|>"Python"<|>"The \'Triton Inference Server\' project customizes a Python backend."<|>"7")', '("relationship"<|>"Triton Inference Server"<|>"Triton Inference Server (Tool)"<|>"The project \'Triton Inference Server\' provides an example of customizing a Python backend for the Triton Inference Server (Tool)."<|>"8")', '("relationship"<|>"Nguyen Viet Cuong"<|>"Billard Shop"<|>"Nguyen Viet Cuong worked on the \'Billard Shop\' project, an e-commerce platform for billiard supplies."<|>"8")', '("relationship"<|>"Billard Shop"<|>"Magento 2"<|>"The \'Billard Shop\' project is built on Magento 2."<|>"8")', '("relationship"<|>"Billard Shop"<|>"Docker"<|>"The \'Billard Shop\' project provides a Dockerized environment."<|>"7")', '("relationship"<|>"Nguyen Viet Cuong"<|>"Q Airline"<|>"Nguyen Viet Cuong worked on the \'Q Airline\' project, a full stack web application for flight information and booking."<|>"8")', '("relationship"<|>"Q Airline"<|>"Docker"<|>"The \'Q Airline\' project provides a Dockerized environment for mock deployment."<|>"7")', '("relationship"<|>"Nguyen Viet Cuong"<|>"Minbert"<|>"Nguyen Viet Cuong worked on the \'Minbert\' project, a mini BERT model."<|>"8")', '("relationship"<|>"Minbert"<|>"BERT"<|>"The \'Minbert\' project is a mini version of the BERT model."<|>"8")', '("relationship"<|>"Nguyen Viet Cuong"<|>"English Learning Application"<|>"Nguyen Viet Cuong worked on the \'English Learning Application\' project, featuring dictionary and vocabulary games."<|>"8")', '("relationship"<|>"Nguyen Viet Cuong"<|>"Dissneland Game"<|>"Nguyen Viet Cuong worked on the \'Dissneland Game\' project, a top-down action game."<|>"8")', '("relationship"<|>"Nguyen Viet Cuong"<|>"Second prize in The Scientific Research Conference for Undergraduates 2025"<|>"Nguyen Viet Cuong received the \'Second prize in The Scientific Research Conference for Undergraduates 2025\' award."<|>"9")', '("relationship"<|>"Second prize in The Scientific Research Conference for Undergraduates 2025"<|>"UET-FIT"<|>"The \'Second prize in The Scientific Research Conference for Undergraduates 2025\' was awarded at UET-FIT."<|>"8")', '("relationship"<|>"Nguyen Viet Cuong"<|>"Workflow automation"<|>"Nguyen Viet Cuong has knowledge and experience in automation of workflows."<|>"7")', '("relationship"<|>"Nguyen Viet Cuong"<|>"System development"<|>"Nguyen Viet Cuong has knowledge and experience in system development."<|>"7")', '("relationship"<|>"Nguyen Viet Cuong"<|>"CI/CD"<|>"Nguyen Viet Cuong has fundamental knowledge of CI/CD."<|>"7")', '("relationship"<|>"Nguyen Viet Cuong"<|>"Jenkins"<|>"Nguyen Viet Cuong has experience using Jenkins as a CI/CD tool."<|>"7")', '("relationship"<|>"Nguyen Viet Cuong"<|>"Argo"<|>"Nguyen Viet Cuong has experience using Argo as a CI/CD tool."<|>"7")', '("relationship"<|>"Nguyen Viet Cuong"<|>"Cloud computing"<|>"Nguyen Viet Cuong possesses fundamental knowledge of Cloud computing."<|>"7")', '("relationship"<|>"Nguyen Viet Cuong"<|>"DevSecOps"<|>"Nguyen Viet Cuong possesses fundamental knowledge of DevSecOps."<|>"7")', '("relationship"<|>"Nguyen Viet Cuong"<|>"Linux"<|>"Nguyen Viet Cuong has proficiency in Linux."<|>"8")', '("relationship"<|>"Nguyen Viet Cuong"<|>"Ubuntu"<|>"Nguyen Viet Cuong has proficiency in Ubuntu."<|>"8")', '("relationship"<|>"Nguyen Viet Cuong"<|>"Git"<|>"Nguyen Viet Cuong has proficiency in Git."<|>"8")', '("relationship"<|>"Nguyen Viet Cuong"<|>"Bash"<|>"Nguyen Viet Cuong has experience with Bash scripting."<|>"7")', '("relationship"<|>"Nguyen Viet Cuong"<|>"Python"<|>"Nguyen Viet Cuong has experience and proficiency in Python."<|>"9")', '("relationship"<|>"Nguyen Viet Cuong"<|>"Javascript"<|>"Nguyen Viet Cuong has proficiency in Javascript."<|>"8")', '("relationship"<|>"Nguyen Viet Cuong"<|>"C++"<|>"Nguyen Viet Cuong has proficiency in C++."<|>"8")', '("relationship"<|>"Nguyen Viet Cuong"<|>"SQL"<|>"Nguyen Viet Cuong has proficiency in SQL."<|>"8")', '("relationship"<|>"Nguyen Viet Cuong"<|>"Java"<|>"Nguyen Viet Cuong has proficiency in Java."<|>"8")', '("relationship"<|>"Nguyen Viet Cuong"<|>"AWS"<|>"Nguyen Viet Cuong has experience with AWS."<|>"8")', '("relationship"<|>"Nguyen Viet Cuong"<|>"Container"<|>"Nguyen Viet Cuong has experience with Container technology."<|>"8")', '("relationship"<|>"Nguyen Viet Cuong"<|>"Scientific and technical documents analysis"<|>"Nguyen Viet Cuong has the ability to research and analyze scientific and technical documents."<|>"7")##']
+2025-07-14 21:20:03,221 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:03,342 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:03,435 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:03,529 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:03,694 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:03,773 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:03,860 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:03,963 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:04,086 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:04,439 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:04,695 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:05,064 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:05,325 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:05,515 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:05,684 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:05,888 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:06,065 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:06,235 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:06,419 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:06,571 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:06,723 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:06,839 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:07,036 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:07,251 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:07,400 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:07,531 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:07,688 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:07,794 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:07,973 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:08,140 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:08,340 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:08,498 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:08,646 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:08,809 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:08,982 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:09,239 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:09,402 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:09,567 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:09,732 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:09,971 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:10,116 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:10,303 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:10,477 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:10,686 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:10,802 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:10,938 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:11,151 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:11,331 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:11,429 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:11,556 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:11,673 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:11,674 - __main__ - INFO - Extracted 51 entities
+2025-07-14 21:20:11,809 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:11,905 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:12,005 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:12,178 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:12,296 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:12,406 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:12,510 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:12,671 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:12,943 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:13,083 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:13,215 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:13,403 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:13,537 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:13,677 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:13,869 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:14,032 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:14,301 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:14,455 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:14,597 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:14,751 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:14,886 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:15,069 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:15,192 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:15,374 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:15,524 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:15,645 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:15,763 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:15,931 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:16,054 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:16,193 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:16,313 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:16,462 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:16,629 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:16,767 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:16,931 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:17,053 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:17,166 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:17,285 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:17,419 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:17,548 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:17,651 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:17,768 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:17,881 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:18,005 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:18,151 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:18,270 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:18,371 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:18,459 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:18,563 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:18,673 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:18,757 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:18,863 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:18,973 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:19,088 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:19,089 - __main__ - INFO - Extracted 54 relationships
+2025-07-14 21:20:24,351 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:28,266 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:32,104 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:35,770 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:39,786 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:43,550 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:47,277 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:51,145 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:55,238 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:20:59,121 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:21:03,072 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:21:06,798 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:21:10,546 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:21:19,027 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:21:22,841 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:21:26,613 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:21:29,980 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:21:33,742 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:21:37,764 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:21:41,457 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:21:45,309 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:21:49,009 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:21:52,568 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:21:55,927 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:21:59,329 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:22:03,146 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:22:06,775 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:22:10,819 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:22:14,290 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:22:17,856 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:22:21,522 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:22:25,192 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:22:29,429 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:22:33,598 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:22:37,328 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:22:40,726 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:22:44,609 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:22:48,284 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:22:51,843 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:22:55,888 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:23:00,311 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:23:04,751 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:23:08,769 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:23:12,752 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:23:16,985 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:23:21,398 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:23:26,234 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:23:31,173 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:23:36,200 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:23:41,887 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:23:47,248 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:45:42,778 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-14 21:45:50,420 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-14 21:45:50,421 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-14 21:45:50,422 - __main__ - INFO - Parsed CV to markdown successfully. Markdown content: # LE HOANG VU
+AI ENGINEER INTERN
+
+## CONTACT
+*   0362511450
+*   niemhoalongvu@gmail.com
+*   https://github.com/vuniem131104
+*   Dich Vong Hau, Cau Giay, Ha Noi
+
+## OBJECTIVE
+A highly motivated IT student with hands-on experience in AI and MLOps projects. Seeking an AI Engineer Internship to apply technical skills in real-world systems and gain practical knowledge of deploying AI solutions at scale.
+
+## EDUCATION
+### University of Engineering & Technology (VNU-UET)
+Information Technology | September 2022 - now
+*   Semester: 6/8
+*   CPA: 3.63
+
+## WORKING EXPERIENCE
+### FINPROS INVESTMENT JOINT STOCK COMPANY
+Position: AI Engineer Intern | 28/06/2024 - 28/08/2024
+*   Developed an AI-powered automated stock trading bot
+*   Collecting stock market data from major exchanges
+
+## PROJECT EXPERIENCE
+### Anomaly Detection in Complex Indoor Surveillance | Group Work: 6 people (Private Repository)
+*   https://github.com/cuongtv312/anomaly-detection
+*   **Brief:** Developed a system for real-time anomaly detection in complex indoor surveillance using deep learning and computer vision.
+*   **Techs:**
+    *   Libraries such as: Pytorch, Ultralytics, OpenCV, Redis, Supervision, Milvus,...
+    *   PostgreSQL and Milvus to store data.
+*   **Main Tasks:**
+    *   Developed a branch to detect actions from people within video by fine-tuning ActionCLIP
+    *   Improved performance of YOLO and DeepSORT to detect and track people
+    *   Used Milvus to store the vector embeddings serving later for detecting abnormal actions
+
+### Resume Evaluation Based On LLMs | Individual Project
+*   https://github.com/vuniem131104/Resume-Evaluation-Based-On-LLMs
+*   **Brief:** Built an asynchronous resume evaluation system using LLMs to provide automated and personalized feedback via virtual interviews.
+*   **Techs:**
+    *   Libraries such as: Langchain, Huggingface, ...
+    *   LLMs including LLama4, Qwen 2.5
+    *   Redis, FastAPI, PostgreSQL, AWS
+*   **Main Tasks:**
+    *   Built an asynchronous resume evaluation system using FastAPI and Redis
+    *   Integrated LLMs to analyze resumes and job descriptions for tailored feedback
+    *   Developed a web interface for file upload, evaluation, and real-time result tracking
+
+### Flowers Colorization Using DDPM | Individual Project
+*   https://github.com/vuniem131104/Flowers-Colorization-Using-DDPM
+*   **Brief:** Applied Denoising Diffusion Probabilistic Models (DDPM) for automatic colorization of grayscale flower images.
+*   **Techs:**
+    *   Libraries such as PyTorch, Torchvision, NumPy,...
+    *   MLflow for experiment tracking and pipeline management
+    *   Modular MLOps pipeline with data preprocessing, model training, and evaluation stages
+*   **Main Tasks:**
+    *   Designed and trained a DDPM-based generative model to colorize flower images
+    *   Built a reproducible MLOps pipeline for preprocessing, training, and logging experiments
+
+## TECHNICAL SKILLS
+*   **Programming Languages:** Python, Java, C++, Javascript
+*   **Machine Learning & Deep Learning:** PyTorch, TensorFlow, Scikit-Learn, XGBoost, Pandas, Numpy
+*   **Computer Vision:** Detectron2, OpenCV, Ultralytics, OCR, Torchvision, Torch
+*   **NLP & LLMS:** Langchain, Huggingface, Smolagents
+*   **MLOps:** MLflow, DVC, Airflow
+*   **Database:** MySQL, PostgreSQL, MongoDB, Redis
+*   **Deployment:** FastAPI, Docker, AWS
+
+## OTHER SKILLS
+*   Math and Probability & Statistics
+*   English Communication
+*   Reading AI Papers
+*   Microsoft Office
+*   Creative, Problem-Solving
+
+## CERTIFICATES
+*   IELTS 7.0
+*   Generative AI
+*   PyTorch for Deep Learning Bootcamp
+*   The Second Prize For Scientific Research Conference for Undergraduates 2025 at UET-FIT
+    *   An Asynchronous Framework for Action Classification from Indoor Surveillance Camera
+
+## AWARD
+*   Top 10 National High School Exam for A01 Group 2021-2022
+*   First Prize in the Provincial Mathematics Excellent Student Competition | 12th grade of high school
+2025-07-14 21:45:50,422 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-14 21:46:35,124 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-14 21:46:35,126 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-14 21:46:35,126 - __main__ - INFO - Extracted raw results from markdown. Results: ['("entity"<|>"LE HOANG VU"<|>"Person"<|>"A highly motivated IT student with hands-on experience in AI and MLOps projects, seeking an AI Engineer Internship to apply technical skills in real-world systems and gain practical knowledge of deploying AI solutions at scale. Currently pursuing Information Technology at the University of Engineering & Technology (VNU-UET).")', '("entity"<|>"AI Engineer Intern"<|>"Position"<|>"A professional role focused on developing and deploying artificial intelligence solutions, often involving machine learning operations (MLOps) practices.")', '("entity"<|>"0362511450"<|>"Phone"<|>"Contact phone number for LE HOANG VU.")', '("entity"<|>"niemhoalongvu@gmail.com"<|>"Email"<|>"Contact email address for LE HOANG VU.")', '("entity"<|>"https://github.com/vuniem131104"<|>"Github"<|>"GitHub profile URL for LE HOANG VU.")', '("entity"<|>"Dich Vong Hau, Cau Giay, Ha Noi"<|>"Address"<|>"Residential address for LE HOANG VU.")', '("entity"<|>"University of Engineering & Technology (VNU-UET)"<|>"EducationInstitution"<|>"A university where LE HOANG VU is currently studying, part of Vietnam National University.")', '("entity"<|>"Information Technology"<|>"Major"<|>"The field of study focusing on computing, software, hardware, and information systems.")', '("entity"<|>"3.63"<|>"Score"<|>"The Cumulative Point Average (CPA) achieved by LE HOANG VU in his academic studies.")', '("entity"<|>"FINPROS INVESTMENT JOINT STOCK COMPANY"<|>"Company"<|>"An investment joint stock company where LE HOANG VU completed an internship.")', '("entity"<|>"Experience as AI Engineer Intern at FINPROS INVESTMENT JOINT STOCK COMPANY"<|>"Experience"<|>"An internship position held by LE HOANG VU at FINPROS INVESTMENT JOINT STOCK COMPANY from June 28, 2024, to August 28, 2024. During this period, LE HOANG VU developed an AI-powered automated stock trading bot and collected stock market data from major exchanges.")', '("entity"<|>"Anomaly Detection in Complex Indoor Surveillance"<|>"Project"<|>"A group project involving 6 people, focused on developing a system for real-time anomaly detection in complex indoor surveillance using deep learning and computer vision. The project used a private repository and focused on detecting actions from people within video and improving tracking performance.")', '("entity"<|>"https://github.com/cuongtv312/anomaly-detection"<|>"Repository"<|>"The GitHub repository link for the \'Anomaly Detection in Complex Indoor Surveillance\' project.")', '("entity"<|>"Resume Evaluation Based On LLMs"<|>"Project"<|>"An individual project focused on building an asynchronous resume evaluation system using Large Language Models (LLMs) to provide automated and personalized feedback via virtual interviews.")', '("entity"<|>"https://github.com/vuniem131104/Resume-Evaluation-Based-On-LLMs"<|>"Repository"<|>"The GitHub repository link for the \'Resume Evaluation Based On LLMs\' project.")', '("entity"<|>"Flowers Colorization Using DDPM"<|>"Project"<|>"An individual project that applied Denoising Diffusion Probabilistic Models (DDPM) for automatic colorization of grayscale flower images. It involved designing and training a generative model and building a reproducible MLOps pipeline.")', '("entity"<|>"https://github.com/vuniem131104/Flowers-Colorization-Using-DDPM"<|>"Repository"<|>"The GitHub repository link for the \'Flowers Colorization Using DDPM\' project.")', '("entity"<|>"Python"<|>"Language"<|>"A high-level, interpreted programming language widely used for web development, data analysis, artificial intelligence, and scientific computing.")', '("entity"<|>"Java"<|>"Language"<|>"A high-level, class-based, object-oriented programming language designed to have as few implementation dependencies as possible.")', '("entity"<|>"C++"<|>"Language"<|>"A general-purpose programming language created as an extension of the C language, providing high performance and control over system resources.")', '("entity"<|>"Javascript"<|>"Language"<|>"A high-level, interpreted programming language primarily used for web development to create interactive and dynamic content.")', '("entity"<|>"PyTorch"<|>"Framework"<|>"An open-source machine learning framework based on the Torch library, used for applications such as computer vision and natural language processing, known for its flexibility and Pythonic interface.")', '("entity"<|>"TensorFlow"<|>"Framework"<|>"An open-source machine learning framework developed by Google, used for building and training machine learning models across a range of tasks.")', '("entity"<|>"Scikit-Learn"<|>"Framework"<|>"A free software machine learning library for the Python programming language, featuring various classification, regression and clustering algorithms.")', '("entity"<|>"XGBoost"<|>"Framework"<|>"An optimized distributed gradient boosting library designed to be highly efficient, flexible, and portable, implementing machine learning algorithms under the gradient boosting framework.")', '("entity"<|>"Pandas"<|>"Technology"<|>"A software library written for the Python programming language for data manipulation and analysis, offering data structures and operations for manipulating numerical tables and time series.")', '("entity"<|>"Numpy"<|>"Technology"<|>"A fundamental package for scientific computing with Python, providing support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions.")', '("entity"<|>"Detectron2"<|>"Tool"<|>"A next-generation library for object detection and segmentation, developed by Facebook AI Research.")', '("entity"<|>"OpenCV"<|>"Tool"<|>"An open-source computer vision and machine learning software library, widely used for image and video processing tasks.")', '("entity"<|>"Ultralytics"<|>"Framework"<|>"A leading developer of AI models for computer vision, known for its YOLO (You Only Look Once) models.")', '("entity"<|>"OCR"<|>"Technology"<|>"Optical Character Recognition, a technology that converts different types of documents, such as scanned paper documents, PDF files, or images taken by a digital camera into editable and searchable data.")', '("entity"<|>"Torchvision"<|>"Framework"<|>"A package in the PyTorch library that consists of popular datasets, model architectures, and common image transformations for computer vision.")', '("entity"<|>"Torch"<|>"Framework"<|>"An open-source machine learning library, a scientific computing framework, and a script language based on the Lua programming language.")', '("entity"<|>"Langchain"<|>"Framework"<|>"A framework designed to simplify the development of applications powered by large language models (LLMs), offering tools for composing LLMs with other components.")', '("entity"<|>"Huggingface"<|>"Platform"<|>"A platform providing open-source tools and models for machine learning, particularly in natural language processing.")', '("entity"<|>"Smolagents"<|>"Framework"<|>"A framework for building small, efficient AI agents, often used for specific, narrow tasks.")', '("entity"<|>"MLflow"<|>"Tool"<|>"An open-source platform for managing the end-to-end machine learning lifecycle, including experiment tracking, reproducible runs, and model deployment.")', '("entity"<|>"DVC"<|>"Tool"<|>"Data Version Control, an open-source version control system for machine learning projects, enabling versioning of models and data.")', '("entity"<|>"Airflow"<|>"Tool"<|>"An open-source platform to programmatically author, schedule, and monitor workflows, often used for orchestrating complex data pipelines.")', '("entity"<|>"MySQL"<|>"Database"<|>"A popular open-source relational database management system.")', '("entity"<|>"PostgreSQL"<|>"Database"<|>"A powerful, open-source object-relational database system known for its reliability, feature robustness, and performance.")', '("entity"<|>"MongoDB"<|>"Database"<|>"A popular open-source NoSQL database that stores data in flexible, JSON-like documents.")', '("entity"<|>"Redis"<|>"Database"<|>"An open-source, in-memory data structure store, used as a database, cache, and message broker.")', '("entity"<|>"FastAPI"<|>"Platform"<|>"A modern, fast (high-performance) web framework for building APIs with Python 3.7+ based on standard Python type hints.")', '("entity"<|>"Docker"<|>"Tool"<|>"A platform for developing, shipping, and running applications in containers, enabling consistent environments across different stages.")', '("entity"<|>"AWS"<|>"Platform"<|>"Amazon Web Services, a comprehensive, broadly adopted, and cloud platform, offering over 200 fully featured services from data centers globally.")', '("entity"<|>"Math and Probability & Statistics"<|>"SoftSkill"<|>"The ability to apply mathematical concepts, probability theory, and statistical methods to analyze data and solve problems.")', '("entity"<|>"English Communication"<|>"SoftSkill"<|>"The ability to effectively convey information, ideas, and feelings in English, both orally and in writing.")', '("entity"<|>"Reading AI Papers"<|>"SoftSkill"<|>"The skill of critically analyzing and understanding academic research papers in the field of Artificial Intelligence to stay updated with advancements.")', '("entity"<|>"Microsoft Office"<|>"SoftSkill"<|>"Proficiency in using the suite of Microsoft Office applications, including Word, Excel, PowerPoint, etc.")', '("entity"<|>"Creative"<|>"SoftSkill"<|>"The ability to use imagination and original ideas to create something new or solve problems.")', '("entity"<|>"Problem-Solving"<|>"SoftSkill"<|>"The process of finding solutions to complex or difficult issues.")', '("entity"<|>"IELTS"<|>"Certification"<|>"The International English Language Testing System, a standardized test of English language proficiency for non-native English speakers.")', '("entity"<|>"7.0"<|>"Score"<|>"The score achieved by LE HOANG VU on the IELTS certification exam.")', '("entity"<|>"Generative AI"<|>"Certification"<|>"A certification indicating knowledge and skills in Generative Artificial Intelligence, a field focused on creating new data instances.")', '("entity"<|>"PyTorch for Deep Learning Bootcamp"<|>"Certification"<|>"A certification obtained from a bootcamp focused on using PyTorch for deep learning applications.")', '("entity"<|>"The Second Prize For Scientific Research Conference for Undergraduates 2025 at UET-FIT"<|>"Achievement"<|>"An award received by LE HOANG VU for scientific research at the undergraduate level, specifically the second prize at a conference organized by the Faculty of Information Technology (FIT) at UET in 2025.")', '("entity"<|>"An Asynchronous Framework for Action Classification from Indoor Surveillance Camera"<|>"Project"<|>"A research paper or project presented at the Scientific Research Conference for Undergraduates 2025 at UET-FIT, related to action classification in indoor surveillance.")', '("entity"<|>"Top 10 National High School Exam for A01 Group"<|>"Award"<|>"An award recognizing LE HOANG VU as being in the top 10 nationally for the A01 Group in the high school examination during the 2021-2022 academic year.")', '("entity"<|>"First Prize in the Provincial Mathematics Excellent Student Competition"<|>"Award"<|>"An award received by LE HOANG VU for achieving the first prize in a provincial-level mathematics competition during his 12th grade of high school.")', '("entity"<|>"ActionCLIP"<|>"Algorithm"<|>"A vision-language model used for action recognition, combining visual features with text descriptions.")', '("entity"<|>"YOLO"<|>"Algorithm"<|>"You Only Look Once, a state-of-the-art, real-time object detection system.")', '("entity"<|>"DeepSORT"<|>"Algorithm"<|>"A tracking algorithm that extends the SORT (Simple Online and Realtime Tracking) algorithm by integrating appearance information to reduce identity switches.")', '("entity"<|>"Milvus"<|>"Database"<|>"An open-source vector database designed for AI applications, capable of storing, indexing, and managing billions of embedding vectors.")', '("entity"<|>"LLama4"<|>"MLModel"<|>"A version of the Llama family of large language models, developed by Meta AI, designed for various natural language processing tasks.")', '("entity"<|>"Qwen 2.5"<|>"MLModel"<|>"A version of the Qwen large language model, developed by Alibaba Cloud, known for its capabilities in natural language understanding and generation.")', '("entity"<|>"DDPM"<|>"Algorithm"<|>"Denoising Diffusion Probabilistic Models, a class of generative models that learn to reverse a diffusion process to generate data, often used for image synthesis.")', '("relationship"<|>"LE HOANG VU"<|>"AI Engineer Intern"<|>"LE HOANG VU is seeking an AI Engineer Internship position to apply his technical skills."<|>"8")', '("relationship"<|>"LE HOANG VU"<|>"University of Engineering & Technology (VNU-UET)"<|>"LE HOANG VU is a student at the University of Engineering & Technology (VNU-UET), having started in September 2022 and currently in his 6th out of 8 semesters."<|>"9")', '("relationship"<|>"LE HOANG VU"<|>"Information Technology"<|>"LE HOANG VU is majoring in Information Technology at the University of Engineering & Technology (VNU-UET)."<|>"9")', '("relationship"<|>"LE HOANG VU"<|>"3.63"<|>"LE HOANG VU has achieved a CPA of 3.63 during his studies at the University of Engineering & Technology (VNU-UET)."<|>"8")', '("relationship"<|>"LE HOANG VU"<|>"Experience as AI Engineer Intern at FINPROS INVESTMENT JOINT STOCK COMPANY"<|>"LE HOANG VU held the position of AI Engineer Intern at FINPROS INVESTMENT JOINT STOCK COMPANY from June 28, 2024, to August 28, 2024."<|>"9")', '("relationship"<|>"Experience as AI Engineer Intern at FINPROS INVESTMENT JOINT STOCK COMPANY"<|>"AI-powered automated stock trading bot"<|>"During the AI Engineer Intern experience at FINPROS INVESTMENT JOINT STOCK COMPANY, LE HOANG VU developed an AI-powered automated stock trading bot."<|>"8")', '("relationship"<|>"Experience as AI Engineer Intern at FINPROS INVESTMENT JOINT STOCK COMPANY"<|>"stock market data"<|>"During the AI Engineer Intern experience at FINPROS INVESTMENT JOINT STOCK COMPANY, LE HOANG VU was responsible for collecting stock market data from major exchanges."<|>"7")', '("relationship"<|>"LE HOANG VU"<|>"Anomaly Detection in Complex Indoor Surveillance"<|>"LE HOANG VU participated in the \'Anomaly Detection in Complex Indoor Surveillance\' as a member of a 6-person group, focusing on real-time anomaly detection."<|>"9")', '("relationship"<|>"Anomaly Detection in Complex Indoor Surveillance"<|>"Pytorch"<|>"The \'Anomaly Detection in Complex Indoor Surveillance\' project utilized Pytorch as one of its core libraries for deep learning."<|>"8")', '("relationship"<|>"LE HOANG VU"<|>"Pytorch"<|>"LE HOANG VU utilized PyTorch in the \'Anomaly Detection in Complex Indoor Surveillance\' project for deep learning tasks, specifically fine-tuning ActionCLIP."<|>"8")', '("relationship"<|>"Anomaly Detection in Complex Indoor Surveillance"<|>"Ultralytics"<|>"The \'Anomaly Detection in Complex Indoor Surveillance\' project utilized Ultralytics for its computer vision tasks, particularly for YOLO."<|>"7")', '("relationship"<|>"LE HOANG VU"<|>"Ultralytics"<|>"LE HOANG VU utilized Ultralytics in the \'Anomaly Detection in Complex Indoor Surveillance\' project to improve the performance of YOLO."<|>"7")', '("relationship"<|>"Anomaly Detection in Complex Indoor Surveillance"<|>"OpenCV"<|>"The \'Anomaly Detection in Complex Indoor Surveillance\' project utilized OpenCV for image and video processing tasks."<|>"7")', '("relationship"<|>"LE HOANG VU"<|>"OpenCV"<|>"LE HOANG VU utilized OpenCV in the \'Anomaly Detection in Complex Indoor Surveillance\' project for computer vision functionalities."<|>"7")', '("relationship"<|>"Anomaly Detection in Complex Indoor Surveillance"<|>"Redis"<|>"The \'Anomaly Detection in Complex Indoor Surveillance\' project utilized Redis for data storage."<|>"6")', '("relationship"<|>"LE HOANG VU"<|>"Redis"<|>"LE HOANG VU utilized Redis in the \'Anomaly Detection in Complex Indoor Surveillance\' project for data storage."<|>"6")', '("relationship"<|>"Anomaly Detection in Complex Indoor Surveillance"<|>"Supervision"<|>"The \'Anomaly Detection in Complex Indoor Surveillance\' project utilized Supervision as one of its libraries."<|>"6")', '("relationship"<|>"LE HOANG VU"<|>"Supervision"<|>"LE HOANG VU utilized Supervision in the \'Anomaly Detection in Complex Indoor Surveillance\' project."<|>"6")', '("relationship"<|>"Anomaly Detection in Complex Indoor Surveillance"<|>"Milvus"<|>"The \'Anomaly Detection in Complex Indoor Surveillance\' project utilized Milvus to store vector embeddings."<|>"8")', '("relationship"<|>"LE HOANG VU"<|>"Milvus"<|>"LE HOANG VU utilized Milvus in the \'Anomaly Detection in Complex Indoor Surveillance\' project to store vector embeddings for detecting abnormal actions."<|>"8")', '("relationship"<|>"Anomaly Detection in Complex Indoor Surveillance"<|>"PostgreSQL"<|>"The \'Anomaly Detection in Complex Indoor Surveillance\' project utilized PostgreSQL to store data."<|>"7")', '("relationship"<|>"LE HOANG VU"<|>"PostgreSQL"<|>"LE HOANG VU utilized PostgreSQL in the \'Anomaly Detection in Complex Indoor Surveillance\' project for data storage."<|>"7")', '("relationship"<|>"Anomaly Detection in Complex Indoor Surveillance"<|>"ActionCLIP"<|>"The \'Anomaly Detection in Complex Indoor Surveillance\' project involved fine-tuning ActionCLIP for action detection."<|>"8")', '("relationship"<|>"LE HOANG VU"<|>"ActionCLIP"<|>"LE HOANG VU developed a branch to detect actions from people within video by fine-tuning ActionCLIP in the \'Anomaly Detection in Complex Indoor Surveillance\' project."<|>"8")', '("relationship"<|>"Anomaly Detection in Complex Indoor Surveillance"<|>"YOLO"<|>"The \'Anomaly Detection in Complex Indoor Surveillance\' project aimed to improve the performance of YOLO for detecting people."<|>"8")', '("relationship"<|>"LE HOANG VU"<|>"YOLO"<|>"LE HOANG VU improved the performance of YOLO to detect people in the \'Anomaly Detection in Complex Indoor Surveillance\' project."<|>"8")', '("relationship"<|>"Anomaly Detection in Complex Indoor Surveillance"<|>"DeepSORT"<|>"The \'Anomaly Detection in Complex Indoor Surveillance\' project aimed to improve the performance of DeepSORT for tracking people."<|>"8")', '("relationship"<|>"LE HOANG VU"<|>"DeepSORT"<|>"LE HOANG VU improved the performance of DeepSORT to track people in the \'Anomaly Detection in Complex Indoor Surveillance\' project."<|>"8")', '("relationship"<|>"LE HOANG VU"<|>"Resume Evaluation Based On LLMs"<|>"LE HOANG VU developed the \'Resume Evaluation Based On LLMs\' as an individual project, building an asynchronous resume evaluation system."<|>"9")', '("relationship"<|>"Resume Evaluation Based On LLMs"<|>"Langchain"<|>"The \'Resume Evaluation Based On LLMs\' project utilized Langchain as one of its core libraries."<|>"8")', '("relationship"<|>"LE HOANG VU"<|>"Langchain"<|>"LE HOANG VU utilized Langchain in the \'Resume Evaluation Based On LLMs\' project for integrating LLMs."<|>"8")', '("relationship"<|>"Resume Evaluation Based On LLMs"<|>"Huggingface"<|>"The \'Resume Evaluation Based On LLMs\' project utilized Huggingface, likely for accessing LLMs or related tools."<|>"7")', '("relationship"<|>"LE HOANG VU"<|>"Huggingface"<|>"LE HOANG VU utilized Huggingface in the \'Resume Evaluation Based On LLMs\' project for accessing models or tools."<|>"7")', '("relationship"<|>"Resume Evaluation Based On LLMs"<|>"LLama4"<|>"The \'Resume Evaluation Based On LLMs\' project integrated LLama4 for resume analysis."<|>"8")', '("relationship"<|>"LE HOANG VU"<|>"LLama4"<|>"LE HOANG VU integrated LLama4 into the \'Resume Evaluation Based On LLMs\' project to analyze resumes and job descriptions."<|>"8")', '("relationship"<|>"Resume Evaluation Based On LLMs"<|>"Qwen 2.5"<|>"The \'Resume Evaluation Based On LLMs\' project integrated Qwen 2.5 for resume analysis."<|>"8")', '("relationship"<|>"LE HOANG VU"<|>"Qwen 2.5"<|>"LE HOANG VU integrated Qwen 2.5 into the \'Resume Evaluation Based On LLMs\' project to analyze resumes and job descriptions."<|>"8")', '("relationship"<|>"Resume Evaluation Based On LLMs"<|>"Redis"<|>"The \'Resume Evaluation Based On LLMs\' project utilized Redis for its asynchronous system."<|>"7")', '("relationship"<|>"LE HOANG VU"<|>"Redis"<|>"LE HOANG VU built an asynchronous resume evaluation system using Redis in the \'Resume Evaluation Based On LLMs\' project."<|>"7")', '("relationship"<|>"Resume Evaluation Based On LLMs"<|>"FastAPI"<|>"The \'Resume Evaluation Based On LLMs\' project utilized FastAPI for its asynchronous system."<|>"8")', '("relationship"<|>"LE HOANG VU"<|>"FastAPI"<|>"LE HOANG VU built an asynchronous resume evaluation system using FastAPI in the \'Resume Evaluation Based On LLMs\' project."<|>"8")', '("relationship"<|>"Resume Evaluation Based On LLMs"<|>"PostgreSQL"<|>"The \'Resume Evaluation Based On LLMs\' project utilized PostgreSQL."<|>"6")', '("relationship"<|>"LE HOANG VU"<|>"PostgreSQL"<|>"LE HOANG VU utilized PostgreSQL in the \'Resume Evaluation Based On LLMs\' project."<|>"6")', '("relationship"<|>"Resume Evaluation Based On LLMs"<|>"AWS"<|>"The \'Resume Evaluation Based On LLMs\' project utilized AWS for its infrastructure."<|>"7")', '("relationship"<|>"LE HOANG VU"<|>"AWS"<|>"LE HOANG VU utilized AWS in the \'Resume Evaluation Based On LLMs\' project for deployment or cloud services."<|>"7")', '("relationship"<|>"LE HOANG VU"<|>"Flowers Colorization Using DDPM"<|>"LE HOANG VU developed the \'Flowers Colorization Using DDPM\' as an individual project, applying Denoising Diffusion Probabilistic Models for image colorization."<|>"9")', '("relationship"<|>"Flowers Colorization Using DDPM"<|>"PyTorch"<|>"The \'Flowers Colorization Using DDPM\' project utilized PyTorch as a core library for model training."<|>"8")', '("relationship"<|>"LE HOANG VU"<|>"PyTorch"<|>"LE HOANG VU used PyTorch in the \'Flowers Colorization Using DDPM\' project to design and train the DDPM-based generative model."<|>"8")', '("relationship"<|>"Flowers Colorization Using DDPM"<|>"Torchvision"<|>"The \'Flowers Colorization Using DDPM\' project utilized Torchvision for image processing or dataset handling."<|>"7")', '("relationship"<|>"LE HOANG VU"<|>"Torchvision"<|>"LE HOANG VU used Torchvision in the \'Flowers Colorization Using DDPM\' project for image data handling."<|>"7")', '("relationship"<|>"Flowers Colorization Using DDPM"<|>"NumPy"<|>"The \'Flowers Colorization Using DDPM\' project utilized NumPy for numerical operations."<|>"6")', '("relationship"<|>"LE HOANG VU"<|>"Numpy"<|>"LE HOANG VU used NumPy in the \'Flowers Colorization Using DDPM\' project for numerical computations."<|>"6")', '("relationship"<|>"Flowers Colorization Using DDPM"<|>"MLflow"<|>"The \'Flowers Colorization Using DDPM\' project utilized MLflow for experiment tracking and pipeline management."<|>"8")', '("relationship"<|>"LE HOANG VU"<|>"MLflow"<|>"LE HOANG VU utilized MLflow in the \'Flowers Colorization Using DDPM\' project for experiment tracking and logging."<|>"8")', '("relationship"<|>"Flowers Colorization Using DDPM"<|>"DDPM"<|>"The \'Flowers Colorization Using DDPM\' project is based on the Denoising Diffusion Probabilistic Models (DDPM) algorithm."<|>"9")', '("relationship"<|>"LE HOANG VU"<|>"DDPM"<|>"LE HOANG VU designed and trained a DDPM-based generative model in the \'Flowers Colorization Using DDPM\' project to colorize flower images."<|>"9")', '("relationship"<|>"LE HOANG VU"<|>"Python"<|>"LE HOANG VU is proficient in Python."<|>"8")', '("relationship"<|>"LE HOANG VU"<|>"Java"<|>"LE HOANG VU is proficient in Java."<|>"7")', '("relationship"<|>"LE HOANG VU"<|>"C++"<|>"LE HOANG VU is proficient in C++."<|>"7")', '("relationship"<|>"LE HOANG VU"<|>"Javascript"<|>"LE HOANG VU is proficient in Javascript."<|>"7")', '("relationship"<|>"LE HOANG VU"<|>"TensorFlow"<|>"LE HOANG VU is proficient in TensorFlow for machine learning and deep learning tasks."<|>"7")', '("relationship"<|>"LE HOANG VU"<|>"Scikit-Learn"<|>"LE HOANG VU is proficient in Scikit-Learn for machine learning tasks."<|>"7")', '("relationship"<|>"LE HOANG VU"<|>"XGBoost"<|>"LE HOANG VU is proficient in XGBoost for machine learning tasks."<|>"7")', '("relationship"<|>"LE HOANG VU"<|>"Pandas"<|>"LE HOANG VU is proficient in Pandas for data analysis."<|>"7")', '("relationship"<|>"LE HOANG VU"<|>"Detectron2"<|>"LE HOANG VU is proficient in Detectron2 for computer vision."<|>"7")', '("relationship"<|>"LE HOANG VU"<|>"OCR"<|>"LE HOANG VU has skills in OCR for computer vision applications."<|>"7")', '("relationship"<|>"LE HOANG VU"<|>"Torch"<|>"LE HOANG VU is proficient in Torch for deep learning."<|>"7")', '("relationship"<|>"LE HOANG VU"<|>"Smolagents"<|>"LE HOANG VU is proficient in Smolagents for NLP and LLMs."<|>"6")', '("relationship"<|>"LE HOANG VU"<|>"DVC"<|>"LE HOANG VU is proficient in DVC for MLOps."<|>"7")', '("relationship"<|>"LE HOANG VU"<|>"Airflow"<|>"LE HOANG VU is proficient in Airflow for MLOps."<|>"7")', '("relationship"<|>"LE HOANG VU"<|>"MySQL"<|>"LE HOANG VU is proficient in MySQL for database management."<|>"7")', '("relationship"<|>"LE HOANG VU"<|>"MongoDB"<|>"LE HOANG VU is proficient in MongoDB for database management."<|>"7")', '("relationship"<|>"LE HOANG VU"<|>"Docker"<|>"LE HOANG VU is proficient in Docker for deployment."<|>"7")', '("relationship"<|>"LE HOANG VU"<|>"Math and Probability & Statistics"<|>"LE HOANG VU possesses strong skills in Math and Probability & Statistics."<|>"8")', '("relationship"<|>"LE HOANG VU"<|>"English Communication"<|>"LE HOANG VU possesses strong English Communication skills."<|>"8")', '("relationship"<|>"LE HOANG VU"<|>"Reading AI Papers"<|>"LE HOANG VU is proficient in Reading AI Papers, indicating research and learning ability."<|>"8")', '("relationship"<|>"LE HOANG VU"<|>"Microsoft Office"<|>"LE HOANG VU is proficient in Microsoft Office applications."<|>"7")', '("relationship"<|>"LE HOANG VU"<|>"Creative"<|>"LE HOANG VU demonstrates creativity as a soft skill."<|>"7")', '("relationship"<|>"LE HOANG VU"<|>"Problem-Solving"<|>"LE HOANG VU possesses strong problem-solving abilities as a soft skill."<|>"8")', '("relationship"<|>"LE HOANG VU"<|>"IELTS"<|>"LE HOANG VU obtained the IELTS certification with a score of 7.0."<|>"9")', '("relationship"<|>"LE HOANG VU"<|>"7.0"<|>"LE HOANG VU achieved a score of 7.0 on the IELTS certification."<|>"9")', '("relationship"<|>"LE HOANG VU"<|>"Generative AI"<|>"LE HOANG VU obtained a certification in Generative AI."<|>"8")', '("relationship"<|>"LE HOANG VU"<|>"PyTorch for Deep Learning Bootcamp"<|>"LE HOANG VU obtained the \'PyTorch for Deep Learning Bootcamp\' certification."<|>"8")', '("relationship"<|>"LE HOANG VU"<|>"The Second Prize For Scientific Research Conference for Undergraduates 2025 at UET-FIT"<|>"LE HOANG VU was awarded The Second Prize For Scientific Research Conference for Undergraduates in 2025 at UET-FIT."<|>"9")', '("relationship"<|>"The Second Prize For Scientific Research Conference for Undergraduates 2025 at UET-FIT"<|>"An Asynchronous Framework for Action Classification from Indoor Surveillance Camera"<|>"The award \'The Second Prize For Scientific Research Conference for Undergraduates 2025 at UET-FIT\' was received for the research paper/project titled \'An Asynchronous Framework for Action Classification from Indoor Surveillance Camera\'."<|>"9")', '("relationship"<|>"An Asynchronous Framework for Action Classification from Indoor Surveillance Camera"<|>"Anomaly Detection in Complex Indoor Surveillance"<|>"The research paper/project \'An Asynchronous Framework for Action Classification from Indoor Surveillance Camera\' is closely related to the \'Anomaly Detection in Complex Indoor Surveillance\' project, as both deal with action classification in indoor surveillance."<|>"9")', '("relationship"<|>"LE HOANG VU"<|>"Top 10 National High School Exam for A01 Group"<|>"LE HOANG VU was awarded Top 10 National High School Exam for A01 Group for the 2021-2022 academic year."<|>"9")', '("relationship"<|>"LE HOANG VU"<|>"First Prize in the Provincial Mathematics Excellent Student Competition"<|>"LE HOANG VU was awarded First Prize in the Provincial Mathematics Excellent Student Competition during his 12th grade of high school."<|>"9")##']
+2025-07-14 21:46:35,951 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:36,064 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:36,125 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:36,187 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:36,252 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:36,309 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:36,404 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:36,494 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:36,608 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:36,692 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:36,958 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:37,213 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:37,317 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:37,475 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:37,574 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:37,798 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:37,898 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:38,030 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:38,165 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:38,304 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:38,418 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:38,600 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:38,743 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:38,857 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:39,019 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:39,162 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:39,339 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:39,449 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:39,563 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:39,688 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:39,868 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:40,017 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:40,161 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:40,306 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:40,422 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:40,531 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:40,693 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:40,830 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:40,990 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:41,060 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:41,198 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:41,314 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:41,441 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:41,573 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:41,682 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:41,817 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:41,933 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:42,050 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:42,187 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:42,305 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:42,396 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:42,484 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:42,596 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:42,686 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:42,805 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:42,931 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:43,149 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:43,323 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:43,502 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:43,686 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:43,828 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:43,972 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:44,122 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:44,263 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:44,456 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:44,604 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:44,782 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:44,783 - __main__ - INFO - Extracted 67 entities
+2025-07-14 21:46:44,919 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:45,139 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:45,279 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:45,434 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:45,598 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:45,758 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:45,909 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:46,086 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:46,233 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:46,408 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:46,551 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:46,701 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:46,825 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:46,959 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:47,068 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:47,200 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:47,311 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:47,425 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:47,551 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:47,720 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:47,848 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:47,990 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:48,110 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:48,281 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:48,418 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:48,549 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:48,687 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:48,824 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:48,992 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:49,114 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:49,258 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:49,386 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:49,524 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:49,626 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:49,767 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:49,880 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:50,050 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:50,180 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:50,428 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:50,552 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:50,711 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:50,813 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:50,941 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:51,043 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:51,174 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:51,356 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:51,479 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:51,651 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:51,769 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:51,903 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:52,013 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:52,153 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:52,274 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:52,404 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:52,547 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:52,709 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:52,775 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:52,842 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:52,942 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:53,021 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:53,133 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:53,240 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:53,341 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:53,427 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:53,527 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:53,630 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:53,718 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:53,824 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:53,906 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:53,990 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:54,084 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:54,181 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:54,263 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:54,350 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:54,421 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:54,523 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:54,606 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:54,682 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:54,778 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:54,879 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:54,980 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:55,067 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:55,186 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:55,331 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:55,588 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:55,818 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:55,971 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:56,106 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"
+2025-07-14 21:46:56,107 - __main__ - INFO - Extracted 88 relationships
+2025-07-14 21:47:07,087 - httpx - INFO - HTTP Request: POST http://127.0.0.1:11434/api/embed "HTTP/1.1 200 OK"

@@ -1,0 +1,4 @@
+google-genai
+httpx
+ollama
+neo4j
