@@ -1,4 +1,4 @@
-CONSTRAINT_NAME_QUERY = "CREATE CONSTRAINT entity_name_unique IF NOT EXISTS FOR (e:Entity) REQUIRE e.name IS UNIQUE"
+CONSTRAINT_NAME_TYPE_QUERY = "CREATE CONSTRAINT entity_name_type_unique IF NOT EXISTS FOR (e:Entity) REQUIRE (e.name, e.type) IS UNIQUE"
 
 CONSTRAINT_FILE_NAME_QUERY = "CREATE CONSTRAINT document_name_unique IF NOT EXISTS FOR (d:DOCUMENT) REQUIRE d.file_name IS UNIQUE"
 
@@ -16,10 +16,13 @@ MERGE (d1)-[:CONTAINED]->(c)
 MERGE (e:Entity {name: $name})
 SET e.type = $type
 MERGE (c)-[:MENTIONED]->(e)
-MERGE (d:DESCRIPTION {uid: $uid})
+WITH e
+OPTIONAL MATCH (e)-[:DESCRIBED]->(existing_desc:DESCRIPTION)
+WITH e, existing_desc, $description as desc, $embeddings as emb, $uid as uid
+WHERE existing_desc IS NULL
+MERGE (d:DESCRIPTION {uid: uid})
 MERGE (e)-[:DESCRIBED]->(d)
-SET d.text = $description, 
-d.embeddings = $embeddings
+SET d.text = desc, d.embeddings = emb
 """
 
 CREATE_RELATIONSHIP_QUERY = """

@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 def main():
-    file_name = "LeHoangVu_CV_v4.pdf"
+    file_name = "Mobile Developer Intern - Android.pdf"
     api_key = os.getenv("GOOGLE_API_KEY")
     uri = os.getenv("NEO4J_URI")
     user = os.getenv("NEO4J_USERNAME")

@@ -14,7 +14,7 @@ class GraphDBService:
             return [record.data() for record in result]
 
     def import_data(self, file_name: str, chunk: str, entities: list[dict], relationships: list[dict]) -> None:
-        self.run_query(CONSTRAINT_NAME_QUERY)
+        self.run_query(CONSTRAINT_NAME_TYPE_QUERY)
         self.run_query(CONSTRAINT_UID_DESCRIPTION_QUERY)
         self.run_query(CONSTRAINT_UID_RELATIONSHIP_QUERY)
         self.run_query(CONSTRAINT_UID_CHUNK_QUERY)
