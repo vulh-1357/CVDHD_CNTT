@@ -5,9 +5,11 @@ from rephraser import RephraserService
 from decomposer import DecomposerService
 from sub_agent import SubAgentService
 from aggregator import AggregatorService
+from traditional_chatbot import TraditionalChatbotService
 from memory import MemoryService
 from functools import cached_property
 from google import genai
+from typing_extensions import Literal
 from dotenv import load_dotenv
 from langchain_core.runnables import RunnableLambda
 from concurrent.futures import ThreadPoolExecutor
@@ -40,6 +42,10 @@ class ChatbotService:
     @property
     def aggregator(self) -> AggregatorService:
         return AggregatorService(self.client)
+    
+    @property
+    def traditional_chatbot(self) -> TraditionalChatbotService:
+        return TraditionalChatbotService(self.client)
 
     @property
     def memory_service(self) -> MemoryService:
@@ -48,6 +54,7 @@ class ChatbotService:
     @property
     def nodes(self) -> dict[str, Any]:
         return {
+            "traditional_chatbot": self.traditional_chatbot.traditional_answer,
             "rephrase_question": self.rephraser.rephrase_question,
             "decompose_question": self.decomposer.decompose_question,
             "sub_agent": RunnableLambda(
@@ -80,13 +87,24 @@ class ChatbotService:
         graph = StateGraph(ChatbotState)
         for key, tool in self.nodes.items():
             graph.add_node(key, tool)
+            
+        def route_rephraser(state: ChatbotState) -> Literal["decompose_question", "traditional_chatbot"]:
+            need_rag = state.get('need_rag', False)
+            if need_rag:
+                return "decompose_question"
+            else:
+                return "traditional_chatbot"
         
         graph.add_edge(START, "memory_retrieval")
         graph.add_edge("memory_retrieval", "rephrase_question")
-        graph.add_edge("rephrase_question", "decompose_question")
+        graph.add_conditional_edges(
+            "rephrase_question",
+            route_rephraser,
+        )
         graph.add_edge("decompose_question", "sub_agent")
         graph.add_edge("sub_agent", "answer_aggregator")
-        graph.add_edge("sub_agent", END)
+        graph.add_edge("traditional_chatbot", END)
+        graph.add_edge("answer_aggregator", END)
         
         return graph.compile()
 

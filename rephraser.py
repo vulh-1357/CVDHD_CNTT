@@ -6,6 +6,7 @@ from state import ChatbotState
 
 class Rephraser_Schema(BaseModel):
     rephrased_question: str
+    need_rag: bool
     
 class RephraserService:
     def __init__(self, client):
@@ -22,5 +23,6 @@ class RephraserService:
             },
         )
         return {
-            "rephrased_question": json.loads(response.text)['rephrased_question']
+            "rephrased_question": json.loads(response.text)['rephrased_question'],
+            "need_rag": json.loads(response.text).get('need_rag', False)
         }

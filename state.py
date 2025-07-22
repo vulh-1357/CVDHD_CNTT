@@ -7,6 +7,7 @@ class ChatbotState(TypedDict):
     sub_questions: list[str]
     conversation_history: list[dict[str, Any]]
     refined_contexts: list[str]
+    need_rag: bool
     answer: str
     
 class SubAgentState(TypedDict):
