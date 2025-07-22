@@ -1,4 +1,5 @@
 import psycopg2
+import json
 from state import ChatbotState
 from functools import cached_property
 from dotenv import load_dotenv
@@ -7,7 +8,7 @@ from typing import Any
 
 load_dotenv()
 
-class MemoryRetrievalService:
+class MemoryService:
     
     @cached_property
     def db_connection(self):
@@ -20,17 +21,18 @@ class MemoryRetrievalService:
                 password=os.getenv('POSTGRES_PASSWORD', 'postgres')
             )
             
-            return connection.cursor()
+            return connection  # Return connection, not cursor
         except Exception as e:
             print(f"Error connecting to the database: {e}")
             return None
         
     def retrieve_memory(self, state: ChatbotState) -> dict[str, Any]:
-        cursor = self.db_connection
-        if not cursor:
-            return []
+        connection = self.db_connection
+        if not connection:
+            return {"conversation_history": ""}
 
         try:
+            cursor = connection.cursor()
             query = "SELECT * FROM message"
             cursor.execute(query)
             results = cursor.fetchall()
@@ -43,6 +45,28 @@ class MemoryRetrievalService:
         finally:
             cursor.close()
             
+    def memory_adding(self, state: ChatbotState) -> None:
+        connection = self.db_connection
+        if not connection:
+            return
+
+        try:
+            cursor = connection.cursor()
+            query = """
+            INSERT INTO message (question, rephrased_question, sub_questions, answer)
+            VALUES (%s, %s, %s, %s)
+            """
+            cursor.execute(query, (
+                state['raw_question'],
+                state['rephrased_question'],
+                json.dumps(state['sub_questions']),
+                state.get('answer', '')
+            ))
+            connection.commit()  # Commit on connection, not cursor
+        except Exception as e:
+            print(f"Error adding memory: {e}")
+        finally:
+            cursor.close()
     
     def _build_conversation_history(self, results: list) -> str:
         history = []

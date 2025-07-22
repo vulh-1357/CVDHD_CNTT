@@ -1,8 +1,6 @@
 import ollama
 from typing import Any
 from constant import DEFAULT_TUPLE_DELIMITER, DEFAULT_RECORD_DELIMITER
-from db import Message
-from sqlalchemy.orm import Session
 
 def embed_query(query) -> list[float]: 
     response = ollama.embed(model="mxbai-embed-large", input=query)
@@ -43,15 +41,3 @@ def build_conversation(conversation_history: list[dict[str, str]]) -> str:
         formatted_conversation.append(f"{role.capitalize()}: {content}")
     
     return "\n".join(formatted_conversation)
-
-def add_message_to_db(session: Session, question: str, rephrased_question: str, sub_questions: list[str], answer: str) -> None:
-    message = Message(
-        question=question,
-        rephrased_question=rephrased_question,
-        sub_questions=sub_questions,
-        answer=answer
-    )
-    
-    session.add(message)
-    session.commit()
-    print(f"Message added to database with ID: {message.id}")

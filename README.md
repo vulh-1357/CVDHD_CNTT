@@ -33,23 +33,9 @@ Make sure PostgreSQL is installed and running on your machine. Create the necess
 
 **Important Database Table Creation:**
 
-1. First, uncomment the table creation line in `db.py`:
-   ```python
-   # Remove the comment from this line:
-   Base.metadata.create_all(engine)
-   ```
-
-2. Run the db.py once to create the database tables:
-   ```bash
-   python3 db.py
-   ```
-
-3. **After tables are created successfully**, comment the line back in `db.py`:
-   ```python
-   # Base.metadata.create_all(engine)
-   ```
-
-This prevents the system from trying to recreate tables on every startup.
+```bash
+python3 db.py
+```
 
 ## Running the Application
 
@@ -63,10 +49,17 @@ Open a terminal and run:
 python3 rag_api.py
 ```
 
-### 2. Start the Streamlit Web Interface
+### 2. Start the Chatbot API Server
+
+Open a terminal and run:
+
+```bash
+python3 chatbot_api.py
+```
+
+### 3. Start the Streamlit Web Interface
 
 Open a second terminal and run:
-
 ```bash
 streamlit run streamlit_app.py
 ```

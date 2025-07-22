@@ -3,10 +3,6 @@ from state import ChatbotState
 from typing import Any
 from prompts import ANSWER_AGGREGATION_PROMPT
 from pydantic import BaseModel
-from fastapi import BackgroundTasks
-from utils import add_message_to_db
-from sqlalchemy.orm import sessionmaker
-from sqlalchemy import create_engine
 
 class Aggregator_Schema(BaseModel):
     final_answer: str
@@ -15,11 +11,6 @@ class Aggregator_Schema(BaseModel):
 class AggregatorService:
     def __init__(self, client):
         self.client = client
-        self.background_tasks = BackgroundTasks()
-        DATABASE_URL = "postgresql://postgres:postgres@localhost:15432/chatbot"
-        engine = create_engine(DATABASE_URL, echo=True)
-        Session = sessionmaker(bind=engine)
-        self.session = Session()
 
     def aggregate_answer(self, state: ChatbotState) -> dict[str, Any]:
         try:
@@ -52,26 +43,8 @@ class AggregatorService:
                 }
             )
             
-            answer = json.loads(completion.text)['final_answer']
-            
-            # self.background_tasks.add_task(
-            #     add_message_to_db,
-            #     session=self.session,
-            #     question=state['raw_question'],
-            #     rephrased_question=state['rephrased_question'],
-            #     sub_questions=state['sub_questions'],
-            #     answer=answer
-            # )
-            add_message_to_db(
-                session=self.session,
-                question=state['raw_question'],
-                rephrased_question=state['rephrased_question'],
-                sub_questions=state['sub_questions'],
-                answer=answer
-            )
-            
             return {
-                "answer": answer,
+                "answer": json.loads(completion.text)['final_answer'],
             }
 
         except Exception as e:

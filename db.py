@@ -16,6 +16,7 @@ class Message(Base):
     rephrased_question = Column(String, nullable=True)
     sub_questions = Column(JSONB, nullable=True)  # Dùng JSONB cho PostgreSQL
     answer = Column(String, nullable=True)
+    
 
 user = os.getenv('POSTGRES_USER', 'postgres')
 password = os.getenv('POSTGRES_PASSWORD', 'postgres')
@@ -25,6 +26,13 @@ port = os.getenv('POSTGRES_PORT', '15432')
 DATABASE_URL = f"postgresql://{user}:{password}@{host}:{port}/{database}"
 engine = create_engine(DATABASE_URL, echo=True)
 
-# Tạo bảng (khi tạo xong thì comment dòng này lại nhé)
-# Base.metadata.create_all(engine)
+def init_db():
+    """
+    Initializes the database and creates tables if they don't exist.
+    """
+    Base.metadata.create_all(engine)
+
+if __name__ == "__main__":
+    init_db()
+    print("Database initialized and 'message' table created if it didn't exist.")
 

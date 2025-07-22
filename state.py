@@ -5,7 +5,7 @@ class ChatbotState(TypedDict):
     raw_question: str 
     rephrased_question: str
     sub_questions: list[str]
-    conversation_history: list[Any]
+    conversation_history: list[dict[str, Any]]
     refined_contexts: list[str]
     answer: str
     

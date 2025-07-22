@@ -5,15 +5,17 @@ from rephraser import RephraserService
 from decomposer import DecomposerService
 from sub_agent import SubAgentService
 from aggregator import AggregatorService
-from memory_retrieval import MemoryRetrievalService
+from memory import MemoryService
 from functools import cached_property
 from google import genai
 from dotenv import load_dotenv
 from langchain_core.runnables import RunnableLambda
 from concurrent.futures import ThreadPoolExecutor
+from fastapi import BackgroundTasks
 import os 
 from state import ChatbotState, SubAgentState
 from typing import Any
+from models import ChatbotInput
 
 load_dotenv()
 
@@ -40,8 +42,8 @@ class ChatbotService:
         return AggregatorService(self.client)
 
     @property
-    def memory_retrieval(self) -> MemoryRetrievalService:
-        return MemoryRetrievalService()
+    def memory_service(self) -> MemoryService:
+        return MemoryService()
 
     @property
     def nodes(self) -> dict[str, Any]:
@@ -52,7 +54,7 @@ class ChatbotService:
                 self.gather_refined_contexts,
             ),
             "answer_aggregator": self.aggregator.aggregate_answer,
-            "memory_retrieval": self.memory_retrieval.retrieve_memory,
+            "memory_retrieval": self.memory_service.retrieve_memory,
         }
         
     def gather_refined_contexts(self, state: ChatbotState) -> dict[str, Any]:
@@ -87,4 +89,22 @@ class ChatbotService:
         graph.add_edge("sub_agent", END)
         
         return graph.compile()
-    
+
+    def process(self, input: ChatbotInput, background_tasks: BackgroundTasks) -> dict[str, Any]:
+        result = self.compiled_graph.invoke(
+            ChatbotState(
+                raw_question=input.raw_question,
+                rephrased_question=input.rephrased_question,
+                sub_questions=input.sub_questions or [],
+                answer=input.answer or "",
+                conversation_history=input.conversation_history or [],
+                refined_contexts=input.refined_contexts or []
+            )
+        )
+        background_tasks.add_task(
+            self.memory_service.memory_adding,
+            state=result
+        )
+        return {
+            "answer": result.get('answer', 'No answer found.')
+        }
