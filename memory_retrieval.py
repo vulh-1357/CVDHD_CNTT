@@ -35,7 +35,7 @@ class MemoryRetrievalService:
             cursor.execute(query)
             results = cursor.fetchall()
             return {
-                "conversation_history": self._build_conversation_history(results)
+                "conversation_history": self._build_conversation_history(results) if len(results) <= 5 else self._build_conversation_history(results[-5:])
             }
         except Exception as e:
             print(f"Error retrieving memory: {e}")
