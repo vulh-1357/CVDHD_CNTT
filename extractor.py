@@ -49,7 +49,7 @@ class ExtractorService:
                         "uid1": str(uuid4()),
                         "uid2": str(uuid4()),
                         "description": tuple_data[3],
-                        "score": int(tuple_data[4]),
+                        "score": int(tuple_data[4]) if tuple_data[4].isdigit() else 0,
                         "embeddings": embed_query(tuple_data[3]),
                     }
                 )

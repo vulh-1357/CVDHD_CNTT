@@ -21,7 +21,7 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 def main():
-    file_name = "Mobile Developer Intern - Android.pdf"
+    file_name = "nguyen_quoc_tuong.pdf"
     api_key = os.getenv("GOOGLE_API_KEY")
     uri = os.getenv("NEO4J_URI")
     user = os.getenv("NEO4J_USERNAME")
@@ -32,7 +32,7 @@ def main():
     extractor_service = ExtractorService(client)
     graph_db_service = GraphDBService(uri=uri, user=user, password=password)
 
-    markdown_content = parser_service.parse_cv_to_markdown(file_name)
+    markdown_content = parser_service.parse_cv_to_markdown("cv/" + file_name)
     logger.info(f"Parsed CV to markdown successfully. Markdown content: {markdown_content}")
 
     raw_results = extractor_service.extract_raw(markdown_content)

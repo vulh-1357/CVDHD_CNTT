@@ -1,0 +1,81 @@
+import json
+from state import ChatbotState
+from typing import Any
+from prompts import ANSWER_AGGREGATION_PROMPT
+from pydantic import BaseModel
+from fastapi import BackgroundTasks
+from utils import add_message_to_db
+from sqlalchemy.orm import sessionmaker
+from sqlalchemy import create_engine
+
+class Aggregator_Schema(BaseModel):
+    final_answer: str
+
+
+class AggregatorService:
+    def __init__(self, client):
+        self.client = client
+        self.background_tasks = BackgroundTasks()
+        DATABASE_URL = "postgresql://postgres:postgres@localhost:15432/chatbot"
+        engine = create_engine(DATABASE_URL, echo=True)
+        Session = sessionmaker(bind=engine)
+        self.session = Session()
+
+    def aggregate_answer(self, state: ChatbotState) -> dict[str, Any]:
+        try:
+            user_message = f"""
+            Main Question: {state['rephrased_question']}
+            Sub-questions and related information:
+            """
+
+            sub_questions = state.get('sub_questions', [])
+            refined_contexts = state.get('refined_contexts', [])
+            
+            for i, (sub_q, context) in enumerate(zip(sub_questions, refined_contexts), 1):
+                user_message += f"""
+                {i}. {sub_q}
+                Context:
+                {context}
+                """
+
+            user_message += """
+            Please answer the main question based on the information from the sub-questions and context provided.
+            """
+
+            completion = self.client.models.generate_content(
+                model="gemini-2.5-flash",
+                contents=user_message,
+                config={
+                    "system_instruction": ANSWER_AGGREGATION_PROMPT,
+                    "response_mime_type": "application/json",
+                    "response_schema": Aggregator_Schema,
+                }
+            )
+            
+            answer = json.loads(completion.text)['final_answer']
+            
+            # self.background_tasks.add_task(
+            #     add_message_to_db,
+            #     session=self.session,
+            #     question=state['raw_question'],
+            #     rephrased_question=state['rephrased_question'],
+            #     sub_questions=state['sub_questions'],
+            #     answer=answer
+            # )
+            add_message_to_db(
+                session=self.session,
+                question=state['raw_question'],
+                rephrased_question=state['rephrased_question'],
+                sub_questions=state['sub_questions'],
+                answer=answer
+            )
+            
+            return {
+                "answer": answer,
+            }
+
+        except Exception as e:
+            return {
+                "answer": f"Error occurred while aggregating answer: {str(e)}",
+            }
+

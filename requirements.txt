@@ -2,3 +2,9 @@ google-genai
 httpx
 ollama
 neo4j
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic
+streamlit
+requests
